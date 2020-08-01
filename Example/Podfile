@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'ZPTestASDK_Example' do
+  pod 'ZPTestASDK', :path => '../'
+
+  target 'ZPTestASDK_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
