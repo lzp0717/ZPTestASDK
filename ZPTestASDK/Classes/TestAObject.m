@@ -6,9 +6,10 @@
 //
 
 #import "TestAObject.h"
+#import <AFNetworking/AFNetworking.h>
 
 @implementation TestAObject
 + (void)test {
-    NSLog(@"%@", self);
+    NSLog(@"%@=====%@", self, [AFNetworkReachabilityManager manager]);
 }
 @end

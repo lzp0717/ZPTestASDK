@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		507928B462B1516371543602 /* Pods_ZPTestASDK_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46B201ACA1DD0B83653DB4F /* Pods_ZPTestASDK_Example.framework */; };
-		5D49586F8CBEA66DED643C59 /* Pods_ZPTestASDK_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D35BA9AB97D3BEBC55D66F65 /* Pods_ZPTestASDK_Tests.framework */; };
+		0AD9456C10B7BF752486D39B /* libPods-ZPTestASDK_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 50A3DD084CA3B9FBC138763F /* libPods-ZPTestASDK_Example.a */; };
+		5F6A22D46576A14AF786325F /* libPods-ZPTestASDK_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AB41EC8E711EFCBEF204275 /* libPods-ZPTestASDK_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50A3DD084CA3B9FBC138763F /* libPods-ZPTestASDK_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPTestASDK_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5AB41EC8E711EFCBEF204275 /* libPods-ZPTestASDK_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZPTestASDK_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* ZPTestASDK_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZPTestASDK_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -60,11 +62,9 @@
 		764C7B74F8B281770957CBA4 /* Pods-ZPTestASDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTestASDK_Example.release.xcconfig"; path = "Target Support Files/Pods-ZPTestASDK_Example/Pods-ZPTestASDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8504CEE287C2D4AE180390F0 /* ZPTestASDK.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZPTestASDK.podspec; path = ../ZPTestASDK.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		C46B201ACA1DD0B83653DB4F /* Pods_ZPTestASDK_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPTestASDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7E42A06D698AC08A5698987 /* Pods-ZPTestASDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTestASDK_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZPTestASDK_Tests/Pods-ZPTestASDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C8FCDC9C4E7B846291D33939 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		CDAAA03473CF09186268689B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		D35BA9AB97D3BEBC55D66F65 /* Pods_ZPTestASDK_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZPTestASDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E58519DB2750229826BB6B /* Pods-ZPTestASDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTestASDK_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZPTestASDK_Example/Pods-ZPTestASDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		FFF7593400C132215F167553 /* Pods-ZPTestASDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTestASDK_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZPTestASDK_Tests/Pods-ZPTestASDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,7 +77,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				507928B462B1516371543602 /* Pods_ZPTestASDK_Example.framework in Frameworks */,
+				0AD9456C10B7BF752486D39B /* libPods-ZPTestASDK_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +88,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				5D49586F8CBEA66DED643C59 /* Pods_ZPTestASDK_Tests.framework in Frameworks */,
+				5F6A22D46576A14AF786325F /* libPods-ZPTestASDK_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +123,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				C46B201ACA1DD0B83653DB4F /* Pods_ZPTestASDK_Example.framework */,
-				D35BA9AB97D3BEBC55D66F65 /* Pods_ZPTestASDK_Tests.framework */,
+				50A3DD084CA3B9FBC138763F /* libPods-ZPTestASDK_Example.a */,
+				5AB41EC8E711EFCBEF204275 /* libPods-ZPTestASDK_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -207,7 +207,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				2EC0A3C84A25F42D99E37A6C /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -247,6 +246,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = zp;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = SUTCJP4AMW;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -295,24 +297,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2EC0A3C84A25F42D99E37A6C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZPTestASDK_Example/Pods-ZPTestASDK_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZPTestASDK/ZPTestASDK.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZPTestASDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZPTestASDK_Example/Pods-ZPTestASDK_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		57D81B9DD38B945432D02E23 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -494,6 +478,7 @@
 			baseConfigurationReference = F8E58519DB2750229826BB6B /* Pods-ZPTestASDK_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUTCJP4AMW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPTestASDK/ZPTestASDK-Prefix.pch";
 				INFOPLIST_FILE = "ZPTestASDK/ZPTestASDK-Info.plist";
@@ -510,6 +495,7 @@
 			baseConfigurationReference = 764C7B74F8B281770957CBA4 /* Pods-ZPTestASDK_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = SUTCJP4AMW;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ZPTestASDK/ZPTestASDK-Prefix.pch";
 				INFOPLIST_FILE = "ZPTestASDK/ZPTestASDK-Info.plist";

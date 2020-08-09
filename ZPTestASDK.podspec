@@ -29,8 +29,14 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
-
+  s.dependency 'AFNetworking'
   s.source_files = 'ZPTestASDK/Classes/**/*'
+  
+#  s.prepare_command = <<-CMD
+#    cd ZPTestASDKBinaryBuild
+#    sh ZPTestASDKBinary.sh
+#  CMD
+#  s.ios.vendored_frameworks = 'ZPTestASDKBinaryBuild/Products/*.framework'
   
   # s.resource_bundles = {
   #   'ZPTestASDK' => ['ZPTestASDK/Assets/*.png']
@@ -38,5 +44,4 @@ TODO: Add long description of the pod here.
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
 end

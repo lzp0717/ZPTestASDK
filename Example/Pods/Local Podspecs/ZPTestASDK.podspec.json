@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of ZPTestASDK.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/zp/ZPTestASDK",
+  "homepage": "https://github.com/lzp0717/ZPTestASDK",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "zp": "379357324@qq.com"
   },
   "source": {
-    "git": "https://github.com/zp/ZPTestASDK.git",
+    "git": "https://github.com/lzp0717/ZPTestASDK.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
+  },
+  "dependencies": {
+    "AFNetworking": [
+
+    ]
   },
   "source_files": "ZPTestASDK/Classes/**/*"
 }
