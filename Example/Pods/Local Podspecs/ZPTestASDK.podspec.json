@@ -1,6 +1,6 @@
 {
   "name": "ZPTestASDK",
-  "version": "0.1.1",
+  "version": "0.1.2.Binary",
   "summary": "A short description of ZPTestASDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/lzp0717/ZPTestASDK",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/lzp0717/ZPTestASDK.git",
-    "tag": "0.1.1"
+    "tag": "0.1.2.Binary"
   },
   "platforms": {
     "ios": "8.0"
@@ -23,6 +23,9 @@
 
     ]
   },
-  "source_files": "ZPTestASDK/Classes/**/*",
-  "resources": "ZPTestASDK/Assets/*.bundle"
+  "prepare_command": "cd ZPTestASDKBinaryBuild\nsh ZPTestASDKBinary.sh",
+  "ios": {
+    "vendored_frameworks": "ZPTestASDKBinaryBuild/Products/**/*.framework"
+  },
+  "resources": "ZPTestASDKBinaryBuild/Products/**/*.bundle"
 }

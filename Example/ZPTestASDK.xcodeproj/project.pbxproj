@@ -305,7 +305,7 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ZPTestASDK_Example/Pods-ZPTestASDK_Example-resources.sh",
-				"${PODS_ROOT}/../../ZPTestASDK/Assets/ZPTestASDK.bundle",
+				"${PODS_ROOT}/../../ZPTestASDKBinaryBuild/Products/ZPTestASDK.framework/ZPTestASDK.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (

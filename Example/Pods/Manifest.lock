@@ -14,7 +14,7 @@ PODS:
   - AFNetworking/Serialization (3.2.1)
   - AFNetworking/UIKit (3.2.1):
     - AFNetworking/NSURLSession
-  - ZPTestASDK (0.1.1):
+  - ZPTestASDK (0.1.2.Binary):
     - AFNetworking
 
 DEPENDENCIES:
@@ -30,7 +30,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
-  ZPTestASDK: ed7cd2eece376167bbb640395e1a870576fb4da5
+  ZPTestASDK: 7d65bda01e838dd7dc12ff07d14e2ed3ce8256fd
 
 PODFILE CHECKSUM: d8930345a28d7fc0a9f62e98e201fd1315c5e335
 

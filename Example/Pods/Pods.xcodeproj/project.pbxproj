@@ -6,6 +6,19 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		BB74E0A26E40B5BBF9FD6B3BAB3E579F /* ZPTestASDK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 35EA786DFF66859DF1F4B207F413F6A2 /* Build configuration list for PBXAggregateTarget "ZPTestASDK" */;
+			buildPhases = (
+			);
+			dependencies = (
+				1706ABD94BEE1F278AB068A94ABC489A /* PBXTargetDependency */,
+			);
+			name = ZPTestASDK;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0343B86E9B9F5619970FCBD7370E033A /* AFCompatibilityMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 8926260688C46F4437F5C0B9B499DA2C /* AFCompatibilityMacros.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		05AB469F0F79C648F8E637F88CDB9E97 /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 3EA2A5DD697EF49F2EC6387546476F1C /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -26,15 +39,12 @@
 		5607AF83703C0AEDB12115740B6672BD /* AFAutoPurgingImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = BEB4E79512920402C16E3C95D5A08D77 /* AFAutoPurgingImageCache.m */; };
 		5671A72ECAB90A855ECF6F69B750B4E1 /* UIWebView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CE9FA31F92F0937FA8937F408252C53 /* UIWebView+AFNetworking.m */; };
 		5FF1B4EEDEE8BCA2E676E2548A412B02 /* AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = A7BC55D0A7B8D1FBA9235915DC577C2A /* AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		62D889E8F67CB9A67C637072E8717D9B /* ZPTestASDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C57839F862C807861CF90E62C49D4FB /* ZPTestASDK-dummy.m */; };
 		6B5B030904BA451F4FFE3AF2FD28D2DA /* AFImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = 63633A1451FEC676C1CFE29746FDCE22 /* AFImageDownloader.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		72797BC85469FCE7E6198B67EC88E851 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 681E92FFC7A198F86AF6CF0B800AAD1B /* AFURLRequestSerialization.m */; };
 		8231FDD98A7D1659F4FA5788AFEEE6DF /* AFHTTPSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A7551AEF35E5870428E426E0B850BB94 /* AFHTTPSessionManager.m */; };
 		894126828AF68F98598CA7B53E737AEF /* UIProgressView+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 35A5C92ED365C328A5AE2D248428C980 /* UIProgressView+AFNetworking.m */; };
-		8EC92025B84926C8A3057830691C2F2B /* TestAObject.h in Headers */ = {isa = PBXBuildFile; fileRef = AAE58F54CDB6B16DC25BB200ADF7FFA9 /* TestAObject.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9A7A3B80A68DB4A21A6833AA4683A7AD /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EA8036CACC82C363D7A9C6115A53CCE /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		A16187923EA1A156F18C909206809C30 /* UIButton+AFNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C22A3134EF94AA617765441AFAA4D84 /* UIButton+AFNetworking.m */; };
-		A27952DA48DCA40397625484DA525FF2 /* TestAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 07C2881542B03897D1669A7CCDD5238E /* TestAObject.m */; };
 		A845819E8332E3CA279E6B00EAA55366 /* UIRefreshControl+AFNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 39409C3F124DDF62B1F6819F2370D95E /* UIRefreshControl+AFNetworking.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B00EA522A62498626388BC649DFE2996 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 447179C37F9D23A867306B46879D86EF /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		B098BC9005738774F6288FF2879FD51D /* AFNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7076530DF5E1AB5594A2F2673D97862F /* AFNetworking-dummy.m */; };
@@ -50,12 +60,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		460671F8D6C66C81E353C7C054A7AAA4 /* PBXContainerItemProxy */ = {
+		7B202549DADD267078A94850D2BAB780 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
-			remoteInfo = AFNetworking;
+			remoteGlobalIDString = 842FD6465F4F2CF2C07ABAE3245B8A12;
+			remoteInfo = "Pods-ZPTestASDK_Example";
 		};
 		860FF151792DDAF1030B770B33DAF56C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -64,14 +74,14 @@
 			remoteGlobalIDString = BB74E0A26E40B5BBF9FD6B3BAB3E579F;
 			remoteInfo = ZPTestASDK;
 		};
-		8EB4984A6C9B4A6C1E1C3DDCB20FEA9C /* PBXContainerItemProxy */ = {
+		A50DCCEDEA788E2A7B8194C2CBCB598B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 842FD6465F4F2CF2C07ABAE3245B8A12;
-			remoteInfo = "Pods-ZPTestASDK_Example";
+			remoteGlobalIDString = 0130B3724283586C0E9D2A112D4F2AA1;
+			remoteInfo = AFNetworking;
 		};
-		A50DCCEDEA788E2A7B8194C2CBCB598B /* PBXContainerItemProxy */ = {
+		F6DD10E52FA281B1003E26F8E20FDEC2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
@@ -82,14 +92,11 @@
 
 /* Begin PBXFileReference section */
 		0456716B23B14E3A7255B86A87B76444 /* AFNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.debug.xcconfig; sourceTree = "<group>"; };
-		07C2881542B03897D1669A7CCDD5238E /* TestAObject.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = TestAObject.m; path = ZPTestASDK/Classes/TestAObject.m; sourceTree = "<group>"; };
 		0CE9FA31F92F0937FA8937F408252C53 /* UIWebView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIWebView+AFNetworking.m"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.m"; sourceTree = "<group>"; };
-		0D9FE1D4D31FC9EADEE8406016781F4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		21C1275E702A2420104C62945FCB610E /* UIImageView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+AFNetworking.m"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.m"; sourceTree = "<group>"; };
 		24B14891A56F35F6156757232E2A7D9B /* Pods-ZPTestASDK_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPTestASDK_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		25D9F4CB716AD3CCCB81C3F2D3B44309 /* AFNetworkReachabilityManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkReachabilityManager.h; path = AFNetworking/AFNetworkReachabilityManager.h; sourceTree = "<group>"; };
 		3021DF851B0C9FF08836E4DAC7C41619 /* UIWebView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIWebView+AFNetworking.h"; path = "UIKit+AFNetworking/UIWebView+AFNetworking.h"; sourceTree = "<group>"; };
-		30C5015482A3C42134EF886D8AFCCD36 /* ZPTestASDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZPTestASDK-prefix.pch"; sourceTree = "<group>"; };
 		33D2A434EDDB51BD1A51B1952007CD15 /* Pods-ZPTestASDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPTestASDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		35A5C92ED365C328A5AE2D248428C980 /* UIProgressView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIProgressView+AFNetworking.m"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.m"; sourceTree = "<group>"; };
 		36A53D20F71BBD28AE45F071C02BBCBD /* Pods-ZPTestASDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPTestASDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -98,6 +105,7 @@
 		40308D215F993D81215E4146D98504E2 /* AFURLRequestSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLRequestSerialization.h; path = AFNetworking/AFURLRequestSerialization.h; sourceTree = "<group>"; };
 		447179C37F9D23A867306B46879D86EF /* AFSecurityPolicy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFSecurityPolicy.h; path = AFNetworking/AFSecurityPolicy.h; sourceTree = "<group>"; };
 		460F86C373BB09EF2312F6529ADAF571 /* AFNetworkReachabilityManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkReachabilityManager.m; path = AFNetworking/AFNetworkReachabilityManager.m; sourceTree = "<group>"; };
+		46F1FC6590341EF72451FBA10DABCF78 /* ZPTestASDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ZPTestASDK.framework; path = ZPTestASDKBinaryBuild/Products/ZPTestASDK.framework; sourceTree = "<group>"; };
 		4DB9A797FFFAD90A7918AE22F7A90FA9 /* AFNetworkActivityIndicatorManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworkActivityIndicatorManager.h; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h"; sourceTree = "<group>"; };
 		4F8E72214847B8F1BAA6DBFCD2BBF4EB /* AFURLSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLSessionManager.m; path = AFNetworking/AFURLSessionManager.m; sourceTree = "<group>"; };
 		5760BAF26D2855FEEA6956CC97E0053F /* UIProgressView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIProgressView+AFNetworking.h"; path = "UIKit+AFNetworking/UIProgressView+AFNetworking.h"; sourceTree = "<group>"; };
@@ -111,14 +119,13 @@
 		73CC8DEE052A0BF810B93FB51B978B0F /* Pods-ZPTestASDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPTestASDK_Example-dummy.m"; sourceTree = "<group>"; };
 		7575C4F4F7B148DE59F42844681616F9 /* AFNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFNetworking-prefix.pch"; sourceTree = "<group>"; };
 		774ACAD0C5088C3811C89C9C7FA28272 /* UIImage+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+AFNetworking.h"; path = "UIKit+AFNetworking/UIImage+AFNetworking.h"; sourceTree = "<group>"; };
+		7CF42BBBDF9E9081FB93E8C00EA8F642 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		7FD75D460BA3584D502C5409ED992412 /* AFSecurityPolicy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFSecurityPolicy.m; path = AFNetworking/AFSecurityPolicy.m; sourceTree = "<group>"; };
 		81883CD7A473007DA30FFE30575BF710 /* UIKit+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIKit+AFNetworking.h"; path = "UIKit+AFNetworking/UIKit+AFNetworking.h"; sourceTree = "<group>"; };
 		856324360B6C39297B9B8FE14F7258D8 /* UIButton+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+AFNetworking.h"; path = "UIKit+AFNetworking/UIButton+AFNetworking.h"; sourceTree = "<group>"; };
 		871E90D2BBC5AAAAE7D512201A5DF7CC /* AFNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFNetworking.release.xcconfig; sourceTree = "<group>"; };
 		8926260688C46F4437F5C0B9B499DA2C /* AFCompatibilityMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFCompatibilityMacros.h; path = AFNetworking/AFCompatibilityMacros.h; sourceTree = "<group>"; };
-		8AD198D7E52E8AC00566BD20E7F24A5D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		8C22A3134EF94AA617765441AFAA4D84 /* UIButton+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+AFNetworking.m"; path = "UIKit+AFNetworking/UIButton+AFNetworking.m"; sourceTree = "<group>"; };
-		8C57839F862C807861CF90E62C49D4FB /* ZPTestASDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZPTestASDK-dummy.m"; sourceTree = "<group>"; };
 		8EA8036CACC82C363D7A9C6115A53CCE /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFURLResponseSerialization.h; path = AFNetworking/AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A084447ABD4DB6620F6B57913A676FA0 /* Pods-ZPTestASDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZPTestASDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
@@ -127,23 +134,22 @@
 		A6B62CA5898F2385ED67D9C6D6505964 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFURLResponseSerialization.m; path = AFNetworking/AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		A7551AEF35E5870428E426E0B850BB94 /* AFHTTPSessionManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFHTTPSessionManager.m; path = AFNetworking/AFHTTPSessionManager.m; sourceTree = "<group>"; };
 		A7BC55D0A7B8D1FBA9235915DC577C2A /* AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFNetworking.h; path = AFNetworking/AFNetworking.h; sourceTree = "<group>"; };
-		AA554C1F7C487CE084274FF97BE931C7 /* ZPTestASDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPTestASDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AAE58F54CDB6B16DC25BB200ADF7FFA9 /* TestAObject.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = TestAObject.h; path = ZPTestASDK/Classes/TestAObject.h; sourceTree = "<group>"; };
-		AE360B0148CCCBCD2C6D8536D4CEF1AA /* ZPTestASDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPTestASDK.debug.xcconfig; sourceTree = "<group>"; };
+		A8A0BE1FCFB06D3F105EAC5FB5B33CBF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		B30CF0AF26351EB9255EEE92A532E352 /* Pods-ZPTestASDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPTestASDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B75541612CE1AE3B900D510D0A17472B /* UIImageView+AFNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+AFNetworking.h"; path = "UIKit+AFNetworking/UIImageView+AFNetworking.h"; sourceTree = "<group>"; };
 		BEB4E79512920402C16E3C95D5A08D77 /* AFAutoPurgingImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFAutoPurgingImageCache.m; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.m"; sourceTree = "<group>"; };
-		C00E5A3BCF5C88026B4DC2830586CB3A /* ZPTestASDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZPTestASDK.bundle; path = ZPTestASDK/Assets/ZPTestASDK.bundle; sourceTree = "<group>"; };
+		BFAC26BA6C602CAF1E5748E68DF2C993 /* ZPTestASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPTestASDK.release.xcconfig; sourceTree = "<group>"; };
 		C0B09524CC545909748BFCF35E1A39BE /* AFImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFImageDownloader.m; path = "UIKit+AFNetworking/AFImageDownloader.m"; sourceTree = "<group>"; };
 		CC9CBE230949B442D9F05712702DB774 /* Pods-ZPTestASDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZPTestASDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		CDCB01F9906511F3B02BF87F3EA9150B /* UIActivityIndicatorView+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIActivityIndicatorView+AFNetworking.m"; path = "UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m"; sourceTree = "<group>"; };
-		D3406E4FF4AA141E1DEC22B9DA22624F /* ZPTestASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPTestASDK.release.xcconfig; sourceTree = "<group>"; };
 		D3547C42BC6BE1281D12C6C297674D3C /* Pods-ZPTestASDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZPTestASDK_Example-resources.sh"; sourceTree = "<group>"; };
+		D38DCE9C7F33E45C9ADBC3385930A989 /* ZPTestASDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = ZPTestASDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D8713D9510C79163184A4C22345F9BBB /* UIRefreshControl+AFNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIRefreshControl+AFNetworking.m"; path = "UIKit+AFNetworking/UIRefreshControl+AFNetworking.m"; sourceTree = "<group>"; };
+		E00B0062FC23135E593E7246A1452337 /* ZPTestASDK.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = ZPTestASDK.bundle; path = ZPTestASDKBinaryBuild/Products/ZPTestASDK.framework/ZPTestASDK.bundle; sourceTree = "<group>"; };
 		E27B79F02E5AE6C0868D55AD60CD4363 /* AFAutoPurgingImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AFAutoPurgingImageCache.h; path = "UIKit+AFNetworking/AFAutoPurgingImageCache.h"; sourceTree = "<group>"; };
 		E772A42D45567CF314DD627438069C20 /* AFNetworkActivityIndicatorManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AFNetworkActivityIndicatorManager.m; path = "UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m"; sourceTree = "<group>"; };
+		EAE7B82DDB08F151135EF174FFE66E64 /* ZPTestASDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZPTestASDK.debug.xcconfig; sourceTree = "<group>"; };
 		F125DA09480800F67A336ABA47A57844 /* Pods-ZPTestASDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZPTestASDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		F1C0DE1BAA92BBCB484E0E6555B81650 /* libZPTestASDK.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libZPTestASDK.a; path = libZPTestASDK.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62DB3800E3A893698B977C216C52565 /* Pods-ZPTestASDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZPTestASDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -169,37 +175,9 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E385B36B355A435CA39ECEE1B8745FEB /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04D64DEF5C7E0A454B50E86A6D596747 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				09E558F44336649333266E8B6B8DA75E /* ZPTestASDK */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		09E558F44336649333266E8B6B8DA75E /* ZPTestASDK */ = {
-			isa = PBXGroup;
-			children = (
-				AAE58F54CDB6B16DC25BB200ADF7FFA9 /* TestAObject.h */,
-				07C2881542B03897D1669A7CCDD5238E /* TestAObject.m */,
-				D5EFA54C2E8ECE004CD891231492117F /* Pod */,
-				F6D2F84D7521449B56F231EFD660A95C /* Resources */,
-				C9588F7BACD8652194D1D20F21BF7815 /* Support Files */,
-			);
-			name = ZPTestASDK;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		201A7B5DDB8A9DC91B336E06A7867F18 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -207,6 +185,14 @@
 				96B250BD530E540A487FCF8259962E51 /* Pods-ZPTestASDK_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3AACB9D3DFE1630C42933F77E6C5EA3E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E00B0062FC23135E593E7246A1452337 /* ZPTestASDK.bundle */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		3E8BFD34005F34F00A6BC0F03CD00419 /* UIKit */ = {
@@ -236,17 +222,6 @@
 			name = UIKit;
 			sourceTree = "<group>";
 		};
-		6FBDD81B6CBF002F3FE37D33813FBF6B /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
-				707A1202B0E4AF11918B096A563BE859 /* libPods-ZPTestASDK_Example.a */,
-				65E09CE48DE6651147CA6034BC0A3295 /* libPods-ZPTestASDK_Tests.a */,
-				F1C0DE1BAA92BBCB484E0E6555B81650 /* libZPTestASDK.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
 		89A8466ABE742B9D19F4977E0565C490 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,6 +244,36 @@
 			path = "Target Support Files/Pods-ZPTestASDK_Tests";
 			sourceTree = "<group>";
 		};
+		96F49CC0750F45C1AD56B741A32962DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EAE7B82DDB08F151135EF174FFE66E64 /* ZPTestASDK.debug.xcconfig */,
+				BFAC26BA6C602CAF1E5748E68DF2C993 /* ZPTestASDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZPTestASDK";
+			sourceTree = "<group>";
+		};
+		98F5FA8AC35AAD47BB47E98B806534D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A4FA15D44DF6BAC7550EDEED10862AA3 /* libAFNetworking.a */,
+				707A1202B0E4AF11918B096A563BE859 /* libPods-ZPTestASDK_Example.a */,
+				65E09CE48DE6651147CA6034BC0A3295 /* libPods-ZPTestASDK_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9EE25289D644096324DCF37F1834BDAD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A8A0BE1FCFB06D3F105EAC5FB5B33CBF /* LICENSE */,
+				7CF42BBBDF9E9081FB93E8C00EA8F642 /* README.md */,
+				D38DCE9C7F33E45C9ADBC3385930A989 /* ZPTestASDK.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		AD3229D68B1B9B4688BBDBF41664F447 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,16 +294,24 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		C9588F7BACD8652194D1D20F21BF7815 /* Support Files */ = {
+		C55FA5F2DE3E0FD66597DB8A876AB8F5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				8C57839F862C807861CF90E62C49D4FB /* ZPTestASDK-dummy.m */,
-				30C5015482A3C42134EF886D8AFCCD36 /* ZPTestASDK-prefix.pch */,
-				AE360B0148CCCBCD2C6D8536D4CEF1AA /* ZPTestASDK.debug.xcconfig */,
-				D3406E4FF4AA141E1DEC22B9DA22624F /* ZPTestASDK.release.xcconfig */,
+				CA2B6FEF6B2CA6FF780433F01D34DFBE /* ZPTestASDK */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/ZPTestASDK";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CA2B6FEF6B2CA6FF780433F01D34DFBE /* ZPTestASDK */ = {
+			isa = PBXGroup;
+			children = (
+				FDD44583DE3A33EB945A7278CC150A5B /* Frameworks */,
+				9EE25289D644096324DCF37F1834BDAD /* Pod */,
+				3AACB9D3DFE1630C42933F77E6C5EA3E /* Resources */,
+				96F49CC0750F45C1AD56B741A32962DC /* Support Files */,
+			);
+			name = ZPTestASDK;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		CBE9C328DB0E5205F38D2F3111E07469 /* Security */ = {
@@ -314,10 +327,10 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				04D64DEF5C7E0A454B50E86A6D596747 /* Development Pods */,
+				C55FA5F2DE3E0FD66597DB8A876AB8F5 /* Development Pods */,
 				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
 				B580EA7CF70EB35BD42257A17D958932 /* Pods */,
-				6FBDD81B6CBF002F3FE37D33813FBF6B /* Products */,
+				98F5FA8AC35AAD47BB47E98B806534D5 /* Products */,
 				201A7B5DDB8A9DC91B336E06A7867F18 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -334,16 +347,6 @@
 			);
 			name = "Pods-ZPTestASDK_Example";
 			path = "Target Support Files/Pods-ZPTestASDK_Example";
-			sourceTree = "<group>";
-		};
-		D5EFA54C2E8ECE004CD891231492117F /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				8AD198D7E52E8AC00566BD20E7F24A5D /* LICENSE */,
-				0D9FE1D4D31FC9EADEE8406016781F4D /* README.md */,
-				AA554C1F7C487CE084274FF97BE931C7 /* ZPTestASDK.podspec */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
@@ -379,14 +382,6 @@
 			path = AFNetworking;
 			sourceTree = "<group>";
 		};
-		F6D2F84D7521449B56F231EFD660A95C /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				C00E5A3BCF5C88026B4DC2830586CB3A /* ZPTestASDK.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		F7595717DF3D5E5F6B671649E9576AB9 /* NSURLSession */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,6 +392,14 @@
 				4F8E72214847B8F1BAA6DBFCD2BBF4EB /* AFURLSessionManager.m */,
 			);
 			name = NSURLSession;
+			sourceTree = "<group>";
+		};
+		FDD44583DE3A33EB945A7278CC150A5B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46F1FC6590341EF72451FBA10DABCF78 /* ZPTestASDK.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,14 +435,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		88FB0108A793E63242EF9F2BE7AACB09 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EC92025B84926C8A3057830691C2F2B /* TestAObject.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -489,24 +484,6 @@
 			productReference = 707A1202B0E4AF11918B096A563BE859 /* libPods-ZPTestASDK_Example.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		BB74E0A26E40B5BBF9FD6B3BAB3E579F /* ZPTestASDK */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 166A776750AC8C5AD6640D21BB7DBFC8 /* Build configuration list for PBXNativeTarget "ZPTestASDK" */;
-			buildPhases = (
-				88FB0108A793E63242EF9F2BE7AACB09 /* Headers */,
-				1B01E375F1F3F0E68A10BC9521967B1C /* Sources */,
-				E385B36B355A435CA39ECEE1B8745FEB /* Frameworks */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				0BC4B59309DEC8A99E97BE8F940FA4AD /* PBXTargetDependency */,
-			);
-			name = ZPTestASDK;
-			productName = ZPTestASDK;
-			productReference = F1C0DE1BAA92BBCB484E0E6555B81650 /* libZPTestASDK.a */;
-			productType = "com.apple.product-type.library.static";
-		};
 		FC8A6C5A45E9F241F84826290B089FB5 /* Pods-ZPTestASDK_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D600712329F7C9E6E632EB59FCCD876F /* Build configuration list for PBXNativeTarget "Pods-ZPTestASDK_Tests" */;
@@ -518,7 +495,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				A7AFA69D385D986C7F33A228F2CFB47F /* PBXTargetDependency */,
+				425909876610D00B5BB971F4FF11A0CA /* PBXTargetDependency */,
 			);
 			name = "Pods-ZPTestASDK_Tests";
 			productName = "Pods-ZPTestASDK_Tests";
@@ -543,7 +520,7 @@
 				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 6FBDD81B6CBF002F3FE37D33813FBF6B /* Products */;
+			productRefGroup = 98F5FA8AC35AAD47BB47E98B806534D5 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -579,15 +556,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1B01E375F1F3F0E68A10BC9521967B1C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A27952DA48DCA40397625484DA525FF2 /* TestAObject.m in Sources */,
-				62D889E8F67CB9A67C637072E8717D9B /* ZPTestASDK-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8E2D31B24EDE216144BBC6147C9C610F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -607,23 +575,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0BC4B59309DEC8A99E97BE8F940FA4AD /* PBXTargetDependency */ = {
+		1706ABD94BEE1F278AB068A94ABC489A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AFNetworking;
 			target = 0130B3724283586C0E9D2A112D4F2AA1 /* AFNetworking */;
-			targetProxy = 460671F8D6C66C81E353C7C054A7AAA4 /* PBXContainerItemProxy */;
+			targetProxy = F6DD10E52FA281B1003E26F8E20FDEC2 /* PBXContainerItemProxy */;
+		};
+		425909876610D00B5BB971F4FF11A0CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-ZPTestASDK_Example";
+			target = 842FD6465F4F2CF2C07ABAE3245B8A12 /* Pods-ZPTestASDK_Example */;
+			targetProxy = 7B202549DADD267078A94850D2BAB780 /* PBXContainerItemProxy */;
 		};
 		6FBC92C0F458E71CFE8A5E4B15A34DF2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ZPTestASDK;
 			target = BB74E0A26E40B5BBF9FD6B3BAB3E579F /* ZPTestASDK */;
 			targetProxy = 860FF151792DDAF1030B770B33DAF56C /* PBXContainerItemProxy */;
-		};
-		A7AFA69D385D986C7F33A228F2CFB47F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-ZPTestASDK_Example";
-			target = 842FD6465F4F2CF2C07ABAE3245B8A12 /* Pods-ZPTestASDK_Example */;
-			targetProxy = 8EB4984A6C9B4A6C1E1C3DDCB20FEA9C /* PBXContainerItemProxy */;
 		};
 		B2F756EBCB377738E112C9032909E7CF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -634,30 +602,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0383DB0B8FA933BDC5B3635C792A8F35 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE360B0148CCCBCD2C6D8536D4CEF1AA /* ZPTestASDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPTestASDK/ZPTestASDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZPTestASDK;
-				PRODUCT_NAME = ZPTestASDK;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		4BE66A09A74FD25164AAB3C2645B9B93 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -826,6 +770,33 @@
 			};
 			name = Release;
 		};
+		A6FBC1D96B4CB0B083342F0577D3E77B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BFAC26BA6C602CAF1E5748E68DF2C993 /* ZPTestASDK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7B8796BE0F328FB7F72DF457FD6D634 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EAE7B82DDB08F151135EF174FFE66E64 /* ZPTestASDK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		BD2C21A20CD08712A9B4D1EA3F8325C0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0456716B23B14E3A7255B86A87B76444 /* AFNetworking.debug.xcconfig */;
@@ -865,31 +836,6 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = AFNetworking;
 				PRODUCT_NAME = AFNetworking;
-				PUBLIC_HEADERS_FOLDER_PATH = "";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		E1F35253FE895E9086CCD0E665D46D8D /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3406E4FF4AA141E1DEC22B9DA22624F /* ZPTestASDK.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				GCC_PREFIX_HEADER = "Target Support Files/ZPTestASDK/ZPTestASDK-prefix.pch";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PRIVATE_HEADERS_FOLDER_PATH = "";
-				PRODUCT_MODULE_NAME = ZPTestASDK;
-				PRODUCT_NAME = ZPTestASDK;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -945,11 +891,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		166A776750AC8C5AD6640D21BB7DBFC8 /* Build configuration list for PBXNativeTarget "ZPTestASDK" */ = {
+		35EA786DFF66859DF1F4B207F413F6A2 /* Build configuration list for PBXAggregateTarget "ZPTestASDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0383DB0B8FA933BDC5B3635C792A8F35 /* Debug */,
-				E1F35253FE895E9086CCD0E665D46D8D /* Release */,
+				B7B8796BE0F328FB7F72DF457FD6D634 /* Debug */,
+				A6FBC1D96B4CB0B083342F0577D3E77B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
