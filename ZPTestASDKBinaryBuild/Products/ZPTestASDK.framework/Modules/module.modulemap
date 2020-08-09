@@ -1,0 +1,6 @@
+framework module ZPTestASDK {
+  umbrella header "ZPTestASDK.h"
+
+  export *
+  module * { export * }
+}

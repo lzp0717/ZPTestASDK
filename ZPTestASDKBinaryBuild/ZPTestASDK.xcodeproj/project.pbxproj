@@ -11,6 +11,7 @@
 		D401F1DA24DF897700AF15E4 /* ZPTestASDK.h in Headers */ = {isa = PBXBuildFile; fileRef = D401F1D824DF897700AF15E4 /* ZPTestASDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D401F1EF24DF8AB000AF15E4 /* TestAObject.m in Sources */ = {isa = PBXBuildFile; fileRef = D401F1EB24DF8AB000AF15E4 /* TestAObject.m */; };
 		D401F1F124DF8AB000AF15E4 /* TestAObject.h in Headers */ = {isa = PBXBuildFile; fileRef = D401F1ED24DF8AB000AF15E4 /* TestAObject.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D401F20D24DFCA7E00AF15E4 /* ZPTestASDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = D401F20C24DFCA7E00AF15E4 /* ZPTestASDK.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		D401F1D924DF897700AF15E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D401F1EB24DF8AB000AF15E4 /* TestAObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TestAObject.m; path = ../../ZPTestASDK/Classes/TestAObject.m; sourceTree = "<group>"; };
 		D401F1ED24DF8AB000AF15E4 /* TestAObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TestAObject.h; path = ../../ZPTestASDK/Classes/TestAObject.h; sourceTree = "<group>"; };
+		D401F20C24DFCA7E00AF15E4 /* ZPTestASDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = ZPTestASDK.bundle; path = ../../ZPTestASDK/Assets/ZPTestASDK.bundle; sourceTree = "<group>"; };
 		D8430194D51FA138CE7C1579 /* Pods-ZPTestASDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZPTestASDK.release.xcconfig"; path = "Target Support Files/Pods-ZPTestASDK/Pods-ZPTestASDK.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +52,6 @@
 				7DD660585FBA356A999B7278 /* Pods-ZPTestASDK.debug.xcconfig */,
 				D8430194D51FA138CE7C1579 /* Pods-ZPTestASDK.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -75,6 +76,7 @@
 		D401F1D724DF897700AF15E4 /* ZPTestASDK */ = {
 			isa = PBXGroup;
 			children = (
+				D401F20C24DFCA7E00AF15E4 /* ZPTestASDK.bundle */,
 				D401F1D824DF897700AF15E4 /* ZPTestASDK.h */,
 				D401F1ED24DF8AB000AF15E4 /* TestAObject.h */,
 				D401F1EB24DF8AB000AF15E4 /* TestAObject.m */,
@@ -154,6 +156,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D401F20D24DFCA7E00AF15E4 /* ZPTestASDK.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,5 +1,6 @@
-cd ZPTestASDKBinaryBuild
+
 # 合并在真机和模拟器上编译出的ZPTestASDK
+
 # 项目名称
 PROJECT_NAME="ZPTestASDK"
 # 库名称
@@ -13,6 +14,9 @@ INSTALL_DIR=Products
 WRK_DIR=build
 DEVICE_DIR=${WRK_DIR}/Release-iphoneos
 SIMULATOR_DIR=${WRK_DIR}/Release-iphonesimulator
+# framework资源文件
+# FMK_NAME_BUNDLE="$PWD/${FMK_NAME}/Assets"
+cd ZPTestASDKBinaryBuild
 # 生成两个架构的framework
 # -UseModernBuildSystem=NO 不是用新构建系统
 # LIBRARY_SEARCH_PATHS 如果你的组件以来了某个第三方，需要设置一下这个
@@ -27,6 +31,10 @@ rm -rf "${INSTALL_DIR}"
 fi
 mkdir -p "${INSTALL_DIR}"
 cp -R "${DEVICE_DIR}/" "${INSTALL_DIR}/"
+# 找到所有bundle资源复制过去
+# for file in `ls | find ${FMK_NAME_BUNDLE} -name '*.bundle'` ; do
+# 	cp -R $file "${INSTALL_DIR}/${FMK_NAME}.framework"
+# done
 # 合成
 lipo -create "${DEVICE_DIR}/${FMK_NAME}.framework/${FMK_NAME}" "${SIMULATOR_DIR}/${FMK_NAME}.framework/${FMK_NAME}" -output "${INSTALL_DIR}/${FMK_NAME}.framework/${FMK_NAME}"
 # 删除 WRK_DIR
